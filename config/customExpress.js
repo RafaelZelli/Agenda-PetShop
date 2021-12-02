@@ -1,6 +1,6 @@
 const express = require('express')  // express é necessário para questão de roteamento
 const consign = require('consign')  // consign é para agrupar todas os encapsulamentos.
-const bodyParser = require('body-parser')  // é uma biblioteca para "parsear", ou seja, traduzir o conteúdo do Body
+const bodyParser = require('body-parser')  // uma biblioteca para "parsear", ou seja, traduzir o conteúdo do Body
 
 module.exports = () =>{
     const app = express()
