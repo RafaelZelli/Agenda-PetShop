@@ -1,0 +1,21 @@
+{
+  "name": "projeto-nodejs-rest",
+  "version": "1.0.0",
+  "description": "Projeto de uma agenda de um petshop utilizando nodejs api express e mysql",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/RafaelZelli/AgendaPetShop)"
+  },
+  "author": "Rafael Zelli",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15",
+    "save-dev": "^0.0.1-security"
+  }
+}
